@@ -1,6 +1,6 @@
 # otus_PAM
 
-Проверялось в среду заменой 5 на 2 в скрипте.
+Проверялось в среду заменой 5 на 2 в строке скрипта Vagrantfile (if [[ `date +%u` > 5 ]]). 
 
 ```
 me@me-HP-260-G3-DM:~/otus-linux/DZ_PAM$ ssh -p 2222 test_user@localhost
